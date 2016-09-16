@@ -1,16 +1,9 @@
 # Angular 2 QuickStart Source
-[![Build Status][travis-badge]][travis-badge-url]
 
 This repository holds the TypeScript source code of the [angular.io quickstart](https://angular.io/docs/ts/latest/quickstart.html),
 the foundation for most of the documentation samples and potentially a good starting point for your application.
 
-It's been extended with testing support so you can start writing tests immediately.
-
-**This is not the perfect arrangement for your application. It is not designed for production.
-It exists primarily to get you started quickly with learning and prototyping in Angular 2**
-
-We are unlikely to accept suggestions about how to grow this QuickStart into something it is not.
-Please keep that in mind before posting issues and PRs.
+This is a near clone/copy of the original quickstart found at [Angular Quickstart](https://github.com/angular/quickstart)
 
 ## Prerequisites
 
@@ -29,11 +22,10 @@ We recommend [nvm](https://github.com/creationix/nvm) for managing multiple vers
 
 Clone this repo into new project folder (e.g., `my-proj`).
 ```bash
-git clone  https://github.com/angular/quickstart  my-proj
+git clone  https://github.com/sumitg/angular2-quickstart.git  my-proj
 cd my-proj
 ```
 
-We have no intention of updating the source on `angular/quickstart`.
 Discard everything "git-like" by deleting the `.git` folder.
 ```bash
 rm -rf .git  # non-Windows
@@ -50,7 +42,6 @@ git init
 git add .
 git commit -m "Initial commit"
 ```
-
 Create a *remote repository* for this project on the service of your choice.
 
 Grab its address (e.g. *`https://github.com/<my-org>/my-proj.git`*) and push the *local repo* to the *remote*.
@@ -150,5 +141,3 @@ which is easier to read; this file is excluded from source control.
 
 Shut it down manually with Ctrl-C.
 
-[travis-badge]: https://travis-ci.org/angular/quickstart.svg?branch=master
-[travis-badge-url]: https://travis-ci.org/angular/quickstart
